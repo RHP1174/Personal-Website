@@ -1,18 +1,18 @@
-const logotext = "RAJ";
+const logotext = "RHP";
 const meta = {
     title: "Raj Patel",
-    description: "I’m Raj Patel data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m Raj Patel data scientist _ Full stack devloper, a student at Univerity of Washington",
 };
 
 const introdata = {
-    title: "I’m Raj Patel",
+    title: "I’m Raj Patel,",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I'm a Software Engineer",
+        first: "a Software Engineer",
+        second: "I love coding",
+        third: "I make cool projects",
     },
     description: "I'm currently a student at the University of Washington majoring in Computer Science and minoring in Business Administration.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "img/personal-image",
 };
 
 const dataabout = {
@@ -55,20 +55,6 @@ const skills = [{
     {
         name: "Jquery",
         value: 85,
-    },
-];
-
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
 
@@ -136,21 +122,17 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "If you would like to contact me, feel free to do so below. Thank you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_6ckcpjv",
+    YOUR_TEMPLATE_ID: "template_7wdshdy",
+    YOUR_USER_ID: "rajhpatel1174@gmail.com",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/RHP1174",
+    linkedin: "https://linkedin.com/in/RajHPatel1174"
 };
 export {
     meta,
@@ -158,7 +140,6 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,

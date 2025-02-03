@@ -61,16 +61,6 @@
     font-size: 45px;
 }
 
-.service__title {
-    padding: 8px 0;
-    border-bottom: solid 2px var(--secondary-color);
-}
-
-.service-section .service-category-title {
-    padding-bottom: 4px;
-}
-
-
 /*! CSS Used keyframes */
 
 @-webkit-keyframes fadeInUp {
