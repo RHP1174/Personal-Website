@@ -133,8 +133,7 @@ const dataportfolio = [{
 
 const contactConfig = {
     description: "If you would like to contact me, feel free to do so below. Thank you!",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    // https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_6ckcpjv",
     YOUR_TEMPLATE_ID: "template_7wdshdy",
     YOUR_USER_ID: "rajhpatel1174@gmail.com",
