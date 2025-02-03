@@ -10,7 +10,7 @@
 
 .page-enter-active {
     transform: translateY(0%);
-    transition: all 400ms ease-out;
+    transition: none;
 }
 
 .page-exit {
@@ -27,6 +27,7 @@
     right: 0;
     top: 0;
     transform: translateY(130%);
+    transition: none;
 }
 
 @media (min-width: 1400px) {
