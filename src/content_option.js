@@ -7,11 +7,21 @@ const meta = {
 const introdata = {
     title: "I’m Raj Patel,",
     animated: {
-        first: "a Software Engineer",
+        first: "I do Software Engineering",
         second: "I love coding",
         third: "I make cool projects",
     },
-    description: "I'm currently a student at the University of Washington majoring in Computer Science and minoring in Business Administration.",
+    description: "Hello, my name is Raj Patel. I was born in India and moved to the United " + 
+                 "States in 2010. Since then, I have loved computers. This led me to the " + 
+                 "decision of pursuing a Computer Science Degree at the University of " +
+                 "Washington. I am currently an upcoming Senior in the Paul G. Allen School of " + 
+                 "Computer Science and Engineering. I am also pursuing a Minor in Business " +
+                 "Administration. I am currently pursuing a future career in Software " + 
+                 "Development and have a lot of expertise in multiple programming languages " +
+                 "like Java, C/C++, Pyhon, etc. Outside of school, I love to play sports, " +
+                 "ride my bike, and go hiking. I am also in a lot of clubs and RSOs. In " +
+                 "addition, I also love to volunteer and have accumulated over 500 hours " +
+                 "of community service.",
     your_img_url: "img/personal-image",
 };
 
