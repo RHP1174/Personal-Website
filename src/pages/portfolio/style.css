@@ -1,3 +1,7 @@
+.About-header {
+    margin-top: -100px; /* Moves everything up by 50px */
+}
+
 .po_items_ho {
     column-width: 15em;
     -moz-column-width: 15em;
