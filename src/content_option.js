@@ -136,7 +136,7 @@ const contactConfig = {
     // https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_6ckcpjv",
     YOUR_TEMPLATE_ID: "template_7wdshdy",
-    YOUR_USER_ID: "rajhpatel1174@gmail.com",
+    YOUR_PUBLIC_KEY: "WF1va4f_ZX8VAsGEJ",
 };
 
 const socialprofils = {
