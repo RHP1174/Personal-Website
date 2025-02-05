@@ -2,6 +2,14 @@
     margin-top: -100px; /* Moves everything up by 50px */
 }
 
+.project-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--bg-color);
+}
+
 .po_items_ho {
     column-width: 15em;
     -moz-column-width: 15em;
