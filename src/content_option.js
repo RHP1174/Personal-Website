@@ -6,11 +6,11 @@ import connect_four from './images/connect-four.jpg';
 const logotext = "RHP";
 const meta = {
     title: "Raj Patel",
-    description: "I’m Raj Patel data scientist _ Full stack devloper, a student at Univerity of Washington",
+    description: "I'm Raj Patel data scientist _ Full stack devloper, a student at Univerity of Washington",
 };
 
 const introdata = {
-    title: "I’m Raj Patel,",
+    title: "I'm Raj Patel,",
     animated: {
         first: "I do Software Engineering",
         second: "I love coding",
