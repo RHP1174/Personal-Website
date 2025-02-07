@@ -1,4 +1,7 @@
-import airline from './assets/images/airline_management.png';
+import airline from './images/flight-manager.png';
+import visaid from './images/visaid.jpg';
+import draft from './images/draft.jpg';
+import connect_four from './images/connect-four.jpg';
 
 const logotext = "RHP";
 const meta = {
@@ -71,25 +74,24 @@ const skills = [{
 ];
 
 const dataportfolio = [{
-        title: "Project 1",
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "1",
-        link: "#",
+        title: "VisAId",
+        img: visaid,
+        description: "Developed an AI powered visual to audio program that takes in camera " + 
+                     "inputs and converts it to speech in real-time. Made for the visually " + 
+                     "impaired using Ultralytics, CVzone, and integrated LLaMA3 and PyTorch for " +
+                     "detailed environmental analysis to assist users with audio descriptions " + 
+                     "of their surroundings. Incorporated text-to-speech functionality using " + 
+                     "pyttsx3 to communicate real-time insights effectively.",
+        link: "https://github.com/RHP1174/VisAId",
     },
     {
-        title: "Project 1",
+        title: "Personal Website",
         img: "https://picsum.photos/400/800/?grayscale",
         description: "3",
-        link: "#",
+        link: "https://github.com/RHP1174/Personal-Website",
     },
     {
-        title: "Project 1",
-        img: "https://picsum.photos/400/?grayscale",
-        description: "5",
-        link: "#",
-    },
-    {
-        title: "Project 1",
+        title: "Flight Application",
         img: airline,
         description: "Developed an airline management app in Java with user accounts, flight " + 
                      "searches, and reservations. Built a SQL-backed system ensuring data " + 
@@ -97,16 +99,24 @@ const dataportfolio = [{
         link: "https://github.com/RHP1174/FlightApp",
     },
     {
-        title: "Project 1",
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "4",
-        link: "#",
+        title: "Draft Application",
+        img: draft,
+        description: "Full-stack web application for conducting item drafts using a " +
+                     "client-server architecture. Users to create, join, and participate in " +
+                     "real-time drafts, with dynamic updates and error handling. The project " +
+                     "was built using JavaScript, Node.js, and front-end technologies, with a " +
+                     "focus on scalability and user experience.",
+        link: "https://github.com/RHP1174/Draft",
     },
     {
-        title: "Project 1",
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "6",
-        link: "#",
+        title: "Connect Four Game",
+        img: connect_four,
+        description: "Developed a simple Connect Four console application that is Java-based." +
+                     "It features turn-based gameplay, automatic win detection, an optional " +
+                     "undo mechanism, and robust error handling. Built using Object-Oriented " +
+                     "Programming principles, it follows the Strategy Pattern with an interface " +
+                     "for flexibility.",
+        link: "https://github.com/RHP1174/ConnectFour",
     },
 ];
 
@@ -122,6 +132,7 @@ const socialprofils = {
     github: "https://github.com/RHP1174",
     linkedin: "https://linkedin.com/in/RajHPatel1174"
 };
+
 export {
     meta,
     dataabout,
