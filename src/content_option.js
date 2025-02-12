@@ -31,8 +31,12 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I am a problem-solver with a passion for technology, organization, and " +
+             "efficiency. My skills include project management, technical problem-solving, " +
+             "communication, and customer service. I thrive in dynamic environments where I can" +
+             "apply analytical thinking and adaptability to tackle challenges. With a strong " +
+             "foundation in teamwork and leadership, I am always eager to learn, grow, and " +
+             "contribute to meaningful projects.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
