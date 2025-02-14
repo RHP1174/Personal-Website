@@ -23,7 +23,7 @@ const introdata = {
                  "Computer Science and Engineering. I am also pursuing a Minor in Business " +
                  "Administration. I am currently pursuing a future career in Software " + 
                  "Development and have a lot of expertise in multiple programming languages " +
-                 "like Java, C/C++, Pyhon, etc. Outside of school, I love to play sports, " +
+                 "like Java, C/C++, Python, etc. Outside of school, I love to play sports, " +
                  "ride my bike, and go hiking. I am also in a lot of clubs and RSOs. In " +
                  "addition, I also love to volunteer and have accumulated over 500 hours " +
                  "of community service.",
