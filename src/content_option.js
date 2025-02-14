@@ -39,20 +39,25 @@ const dataabout = {
              "contribute to meaningful projects.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Assistant Manager",
+        where: "Walla Walla SureStay Hotel",
+        date: "Dec 2021 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Student Assistant",
+        where: "Seattle MCB Grad Program",
+        date: "Aug 2024 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Specialist",
+        where: "Apple",
+        date: "2024-2025",
     },
+    {
+        jobtitle: "Assistant Manager",
+        where: "Walla Walla Travelodge Hotel",
+        date: "Jun 2016 - Nov 2021",
+    }
 ];
 
 const skills = [{
