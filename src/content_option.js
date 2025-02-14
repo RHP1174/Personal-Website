@@ -1,5 +1,6 @@
 import airline from './images/flight-manager.png';
 import visaid from './images/visaid.jpg';
+import website from './images/personal-website.png';
 import draft from './images/draft.jpg';
 import connect_four from './images/connect-four.jpg';
 
@@ -112,8 +113,13 @@ const dataportfolio = [{
     },
     {
         title: "Personal Website",
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "3",
+        img: website,
+        description: "Designed and developed a personal portfolio website showcasing projects, " +
+             "skills, and experiences with a sleek and responsive UI. Built using React and " +
+             "Bootstrap for a modern and interactive design, with React-Helmet for SEO " +
+             "optimization. Integrated dynamic content handling with JavaScript and leveraged" +
+             "React Icons for visual enhancements. Ensured smooth navigation and a structured" +
+             "layout to provide an engaging user experience.",
         link: "https://github.com/RHP1174/Personal-Website",
     },
     {
