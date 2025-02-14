@@ -1,5 +1,4 @@
 {
-    "homepage": "http://raj1174.github.io/Personal-Website",
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
@@ -22,7 +21,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "npm run build && yarn build && cp build/index.html build/404.html",
+        "predeploy": "yarn build && cp build/index.html build/404.html",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
