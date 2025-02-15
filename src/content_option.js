@@ -117,8 +117,8 @@ const dataportfolio = [{
         description: "Designed and developed a personal portfolio website showcasing projects, " +
              "skills, and experiences with a sleek and responsive UI. Built using React and " +
              "Bootstrap for a modern and interactive design, with React-Helmet for SEO " +
-             "optimization. Integrated dynamic content handling with JavaScript and leveraged" +
-             "React Icons for visual enhancements. Ensured smooth navigation and a structured" +
+             "optimization. Integrated dynamic content handling with JavaScript and leveraged " +
+             "React Icons for visual enhancements. Ensured smooth navigation and a structured " +
              "layout to provide an engaging user experience.",
         link: "https://github.com/RHP1174/Personal-Website",
     },
@@ -143,7 +143,7 @@ const dataportfolio = [{
     {
         title: "Connect Four Game",
         img: connect_four,
-        description: "Developed a simple Connect Four console application that is Java-based." +
+        description: "Developed a simple Connect Four console application that is Java-based. " +
                      "It features turn-based gameplay, automatic win detection, an optional " +
                      "undo mechanism, and robust error handling. Built using Object-Oriented " +
                      "Programming principles, it follows the Strategy Pattern with an interface " +
