@@ -17,29 +17,28 @@ const introdata = {
         second: "I love coding",
         third: "I make cool projects",
     },
-    description: "Hello, my name is Raj Patel. I was born in India and moved to the United " + 
-                 "States in 2010. Since then, I have loved computers. This led me to the " + 
-                 "decision of pursuing a Computer Science Degree at the University of " +
-                 "Washington. I am currently an upcoming Senior in the Paul G. Allen School of " + 
-                 "Computer Science and Engineering. I am also pursuing a Minor in Business " +
-                 "Administration. I am currently pursuing a future career in Software " + 
-                 "Development and have a lot of expertise in multiple programming languages " +
-                 "like Java, C/C++, Python, etc. Outside of school, I love to play sports, " +
-                 "ride my bike, and go hiking. I am also in a lot of clubs and RSOs. In " +
-                 "addition, I also love to volunteer and have accumulated over 500 hours " +
-                 "of community service.",
+    description: "Hello, I am currently a student at the University of Washington pursuing a " +
+                 "Computer Science Degree with a Minor in Business Administration. I am a " +
+                 "passionate software engineer with a strong interest in building efficient and" +
+                 "scalable applications. I am currently looking for opportunities to work on " +
+                 "real-world projects and expand my skills. I have experience in multiple " +
+                 "programming languages such as Java, C/C++, Python, and a few others. Feel free" +
+                 "to check out my portfolio or contact me if you would like!",
     your_img_url: "img/personal-image",
 };
 
 const dataabout = {
     aboutme: "I am a problem-solver with a passion for technology, organization, and " +
              "efficiency. My skills include project management, technical problem-solving, " +
-             "communication, and customer service. I thrive in dynamic environments where I can " +
-             "apply analytical thinking and adaptability to tackle challenges. With a strong " +
-             "foundation in teamwork and leadership, I am always eager to learn, grow, and " +
-             "contribute to meaningful projects.",
+             "communication, and customer service. I also have a long history of volunteering, " +
+             "with over 500 hours of community service. I thrive in dynamic environments where " +
+             "I can apply analytical thinking and adaptability to tackle challenges. With a " +
+             "strong foundation in teamwork and leadership, I am always eager to learn, grow, " +
+             "and contribute to meaningful projects.",
 };
-const worktimeline = [{
+
+const worktimeline = [
+    {
         jobtitle: "Assistant Manager",
         where: "Walla Walla SureStay Hotel",
         date: "Dec 2021 - Present",
@@ -58,6 +57,34 @@ const worktimeline = [{
         jobtitle: "Assistant Manager",
         where: "Walla Walla Travelodge Hotel",
         date: "Jun 2016 - Nov 2021",
+    }
+];
+
+const volunteertimeline = [
+    {
+        jobtitle: "Organizer/Coordinator",
+        where: "Food Drive",
+        date: "May 2022",
+    },
+    {
+        jobtitle: "Volunteer",
+        where: "Walla Walla Public Library",
+        date: "2016 - 2022",
+    },
+    {
+        jobtitle: "Volunteer",
+        where: "Blue Mountain Humane Society",
+        date: "2018 - 2021",
+    },
+    {
+        jobtitle: "Volunteer",
+        where: "Whitman Place Senior Center",
+        date: "2019 - 2020",
+    },
+    {
+        jobtitle: "Volunteer",
+        where: "Washington Odd Fellows Home",
+        date: "2017",
     }
 ];
 
@@ -100,7 +127,8 @@ const skills = [
     },
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
         title: "VisAId",
         img: visaid,
         description: "Developed an AI powered visual to audio program that takes in camera " + 
@@ -169,6 +197,7 @@ export {
     dataabout,
     dataportfolio,
     worktimeline,
+    volunteertimeline,
     skills,
     introdata,
     contactConfig,
