@@ -162,6 +162,14 @@ const dataportfolio = [
         link: "https://github.com/RHP1174/Personal-Website",
     },
     {
+        title: "Flight Application",
+        img: airline,
+        description: "Developed an airline management app in Java with user accounts, flight " + 
+                     "searches, and reservations. Built a SQL-backed system ensuring data " + 
+                     "consistency and secure authentication with salted password hashing.",
+        link: "https://github.com/RHP1174/FlightApp",
+    },
+    {
         title: "VisAId",
         img: visaid,
         description: "Developed an AI powered visual to audio program that takes in camera " + 
@@ -171,14 +179,6 @@ const dataportfolio = [
                      "of their surroundings. Incorporated text-to-speech functionality using " + 
                      "pyttsx3 to communicate real-time insights effectively.",
         link: "https://github.com/RHP1174/VisAId",
-    },
-    {
-        title: "Flight Application",
-        img: airline,
-        description: "Developed an airline management app in Java with user accounts, flight " + 
-                     "searches, and reservations. Built a SQL-backed system ensuring data " + 
-                     "consistency and secure authentication with salted password hashing.",
-        link: "https://github.com/RHP1174/FlightApp",
     },
     {
         title: "Connect Four Game",
