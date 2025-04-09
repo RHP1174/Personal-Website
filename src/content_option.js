@@ -3,6 +3,7 @@ import visaid from './images/visaid.jpg';
 import website from './images/personal-website.png';
 import draft from './images/draft.jpg';
 import connect_four from './images/connect-four.jpg';
+import hintcode from './images/hintcode.png';
 
 const logotext = "RHP";
 const meta = {
@@ -129,15 +130,25 @@ const skills = [
 
 const dataportfolio = [
     {
-        title: "VisAId",
-        img: visaid,
-        description: "Developed an AI powered visual to audio program that takes in camera " + 
-                     "inputs and converts it to speech in real-time. Made for the visually " + 
-                     "impaired using Ultralytics, CVzone, and integrated LLaMA3 and PyTorch for " +
-                     "detailed environmental analysis to assist users with audio descriptions " + 
-                     "of their surroundings. Incorporated text-to-speech functionality using " + 
-                     "pyttsx3 to communicate real-time insights effectively.",
-        link: "https://github.com/RHP1174/VisAId",
+        title: "HintCode AI Extension",
+        img: hintcode,
+        description: "A browser extension that seamlessly integrates with LeetCode, leveraging " +
+                     "AI-generated hints to enhance real-time problem-solving. Implemented " +
+                     "AI-driven hint generation using Gemini 1.5 Flash, optimizing response " +
+                     "accuracy and contextual relevance for algorithmic coding challenges. " +
+                     "Developed CI/CD pipelines using GitHub Actions to automate testing, " +
+                     "building, and deployment, ensuring a streamlined development workflow.",
+        link: "https://chromewebstore.google.com/detail/hintcode/hpehhabpjldkfbbjggeeajmcjkmlhfbe",
+    },
+    {
+        title: "Draft Application",
+        img: draft,
+        description: "Full-stack web application for conducting item drafts using a " +
+                     "client-server architecture. Users to create, join, and participate in " +
+                     "real-time drafts, with dynamic updates and error handling. The project " +
+                     "was built using JavaScript, Node.js, and front-end technologies, with a " +
+                     "focus on scalability and user experience.",
+        link: "https://github.com/RHP1174/Draft",
     },
     {
         title: "Personal Website",
@@ -151,22 +162,23 @@ const dataportfolio = [
         link: "https://github.com/RHP1174/Personal-Website",
     },
     {
+        title: "VisAId",
+        img: visaid,
+        description: "Developed an AI powered visual to audio program that takes in camera " + 
+                     "inputs and converts it to speech in real-time. Made for the visually " + 
+                     "impaired using Ultralytics, CVzone, and integrated LLaMA3 and PyTorch for " +
+                     "detailed environmental analysis to assist users with audio descriptions " + 
+                     "of their surroundings. Incorporated text-to-speech functionality using " + 
+                     "pyttsx3 to communicate real-time insights effectively.",
+        link: "https://github.com/RHP1174/VisAId",
+    },
+    {
         title: "Flight Application",
         img: airline,
         description: "Developed an airline management app in Java with user accounts, flight " + 
                      "searches, and reservations. Built a SQL-backed system ensuring data " + 
                      "consistency and secure authentication with salted password hashing.",
         link: "https://github.com/RHP1174/FlightApp",
-    },
-    {
-        title: "Draft Application",
-        img: draft,
-        description: "Full-stack web application for conducting item drafts using a " +
-                     "client-server architecture. Users to create, join, and participate in " +
-                     "real-time drafts, with dynamic updates and error handling. The project " +
-                     "was built using JavaScript, Node.js, and front-end technologies, with a " +
-                     "focus on scalability and user experience.",
-        link: "https://github.com/RHP1174/Draft",
     },
     {
         title: "Connect Four Game",
