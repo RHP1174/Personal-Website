@@ -20,10 +20,10 @@ const introdata = {
     },
     description: "Hello, I am currently a student at the University of Washington pursuing a " +
                  "Computer Science Degree with a Minor in Business Administration. I am a " +
-                 "passionate software engineer with a strong interest in building efficient and" +
+                 "passionate software engineer with a strong interest in building efficient and " +
                  "scalable applications. I am currently looking for opportunities to work on " +
                  "real-world projects and expand my skills. I have experience in multiple " +
-                 "programming languages such as Java, C/C++, Python, and a few others. Feel free" +
+                 "programming languages such as Java, C/C++, Python, and a few others. Feel free " +
                  "to check out my portfolio or contact me if you would like!",
     your_img_url: "img/personal-image",
 };
