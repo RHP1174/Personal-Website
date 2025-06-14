@@ -47,12 +47,12 @@ const worktimeline = [
     {
         jobtitle: "Student Assistant",
         where: "Seattle MCB Grad Program",
-        date: "Aug 2024 - Present",
+        date: "Aug 2024 - June 2025",
     },
     {
         jobtitle: "Specialist",
         where: "Apple",
-        date: "2024-2025",
+        date: "September 2024- January 2025",
     },
     {
         jobtitle: "Assistant Manager",
