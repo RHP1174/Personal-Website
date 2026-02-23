@@ -78,10 +78,20 @@ export const About = () => {
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
-            <div>
-              <p>{skills.skills}</p>
-            </div>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {skills.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.skill}</th>
+                      <td>{data.about}</td>
+                      <td>{data.points}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </Col>
         </Row>
       </Container>
