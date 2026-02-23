@@ -100,43 +100,43 @@ const skills = [
         about:
         "I build full-stack applications with a focus on backend systems, developer tooling, and AI-powered products. I design and implement end-to-end systems — from architecture and database design to deployment and iteration.",
         points:
-        "Languages: Java, Python, C++, JavaScript/TypeScript, SQL\n" +
-        "Backend & Systems: REST APIs, object-oriented design, concurrency control, distributed systems fundamentals\n" +
-        "Frontend: React, browser extensions, responsive UI development\n" +
-        "Cloud & DevOps: Docker, CI/CD (GitHub Actions), Azure\n" +
-        "Version Control: Git, collaborative workflows"
+        " • Languages: Java, Python, C++, JavaScript/TypeScript, SQL\n" +
+        " • Backend & Systems: REST APIs, object-oriented design, concurrency control, distributed systems fundamentals\n" +
+        " • Frontend: React, browser extensions, responsive UI development\n" +
+        " • Cloud & DevOps: Docker, CI/CD (GitHub Actions), Azure\n" +
+        " • Version Control: Git, collaborative workflows"
     },
     {
         skill: "Machine Learning & AI",
         about:
         "I build practical AI systems focused on accessibility and developer productivity. I emphasize real-world usability, performance, and clean integration into production-oriented applications.",
         points:
-        "Frameworks: PyTorch, TensorFlow, OpenCV, MediaPipe\n" +
-        "Real-time computer vision systems\n" +
-        "Large Language Model (LLM) integration in user-facing applications\n" +
-        "End-to-end ML pipeline development (preprocessing, training, evaluation, lightweight deployment)\n" +
-        "Performance optimization for low-latency inference"
+        " • Frameworks: PyTorch, TensorFlow, OpenCV, MediaPipe\n" +
+        " • Real-time computer vision systems\n" +
+        " • Large Language Model (LLM) integration in user-facing applications\n" +
+        " • End-to-end ML pipeline development (preprocessing, training, evaluation, lightweight deployment)\n" +
+        " • Performance optimization for low-latency inference"
     },
     {
         skill: "Problem Solving & Systems Thinking",
         about:
         "I approach engineering problems with structured reasoning and a focus on scalability, maintainability, and performance tradeoffs.",
         points:
-        "Strong foundation in data structures and algorithms\n" +
-        "Experience reasoning about scalability and system performance\n" +
-        "Structured debugging and root-cause analysis\n" +
-        "Object-oriented design and clean architecture principles\n" +
-        "Reliability and production-oriented mindset"
+        " • Strong foundation in data structures and algorithms\n" +
+        " • Experience reasoning about scalability and system performance\n" +
+        " • Structured debugging and root-cause analysis\n" +
+        " • Object-oriented design and clean architecture principles\n" +
+        " • Reliability and production-oriented mindset"
     },
     {
         skill: "Leadership & Ownership",
         about:
         "Beyond coding, I bring leadership experience and strong communication skills developed through managing teams and operating in high-responsibility environments.",
         points:
-        "Experience leading cross-functional teams\n" +
-        "Comfortable operating in ambiguity and fast-paced environments\n" +
-        "Clear communication across technical and non-technical stakeholders\n" +
-        "Ownership from idea to deployment and iteration"
+        " • Experience leading cross-functional teams\n" +
+        " • Comfortable operating in ambiguity and fast-paced environments\n" +
+        " • Clear communication across technical and non-technical stakeholders\n" +
+        " • Ownership from idea to deployment and iteration"
     }
 ];
 
