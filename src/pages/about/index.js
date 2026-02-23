@@ -78,20 +78,29 @@ export const About = () => {
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
+
           <Col lg="7">
-            <table className="table caption-top">
-              <tbody>
-                {skills.map((data, i) => {
-                  return (
-                    <tr key={i}>
-                      <th scope="row">{data.skill}</th>
-                      <td>{data.about}</td>
-                      <td>{data.points}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
+            {skills.map((item, i) => {
+              const points = (item.points || "")
+                .split("\n")
+                .map((s) => s.trim())
+                .filter(Boolean)
+                .map((s) => s.replace(/^[•\-\*]\s*/, "").trim());
+              return (
+                <div key={i} className="skill-block mb-4">
+                  <h5 className="skill-title">{item.skill}</h5>
+                  <p className="skill-about">{item.about}</p>
+
+                  {points.length > 0 && (
+                    <ul className="skill-points">
+                      {points.map((pt, idx) => (
+                        <li key={idx}>{pt}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              );
+            })}
           </Col>
         </Row>
       </Container>

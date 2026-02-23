@@ -88,3 +88,40 @@
         transform: translateZ(0);
     }
 }
+
+.skill-block {
+    margin-bottom: 2.5rem;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--text-color);
+}
+
+.skill-about {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.skill-points {
+    padding-left: 1.2rem;
+    margin: 0;
+}
+
+.skill-points li {
+    margin-bottom: 0.4rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    opacity: 0.85;
+}
+
+@media (max-width: 992px) {
+    .skill-block {
+        margin-bottom: 2rem;
+    }
+}
