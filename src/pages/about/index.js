@@ -86,10 +86,9 @@ export const About = () => {
                     .split("\n")
                     .map((s) => s.trim())
                     .filter(Boolean)
-                    .map((s) => s.replace(/^[•\-\*]\s*/, "").trim());
                   return (
-                    <div key={i} className="skill-block mb-4">
-                      <h5 className="skill-title">{item.skill}</h5>
+                    <div key={i}>
+                      <th className="skill-title">{item.skill}</th>
                       <p className="skill-about">{item.about}</p>
                       {points.length > 0 && (
                         <ul className="skill-points">
