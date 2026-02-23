@@ -45,6 +45,11 @@ const worktimeline = [
         date: "Dec 2021 - Present",
     },
     {
+        jobtitle: "Specialist",
+        where: "Apple",
+        date: "August 2025 - January 2026",
+    },
+    {
         jobtitle: "Student Assistant",
         where: "Seattle MCB Grad Program",
         date: "Aug 2024 - June 2025",
@@ -52,7 +57,7 @@ const worktimeline = [
     {
         jobtitle: "Specialist",
         where: "Apple",
-        date: "September 2024- January 2025",
+        date: "September 2024 - January 2025",
     },
     {
         jobtitle: "Assistant Manager",
@@ -85,7 +90,7 @@ const volunteertimeline = [
     {
         jobtitle: "Volunteer",
         where: "Washington Odd Fellows Home",
-        date: "2017",
+        date: "2017 - 2018",
     }
 ];
 
