@@ -95,7 +95,35 @@ const volunteertimeline = [
 ];
 
 const skills = {
-        skills: "test"
+        skills: "Software Engineering" +
+                "I build full-stack applications with a focus on backend systems, developer tooling," +
+                "and AI-powered products. I design and implement end-to-end systems — from" + 
+                "architecture and database design to deployment and iteration." +
+                " • Languages: Java, Python, C++, JavaScript/TypeScript, SQL." +
+                " • Backend & Systems: REST APIs, object-oriented design, concurrency control," +
+                "   distributed systems fundamentals." +
+                " • Frontend: React, browser extensions, responsive UI." +
+                " • Cloud & DevOps: Docker, CI/CD (GitHub Actions), Azure." +
+                " • Version Control: Git, collaborative workflows." +
+                "" +
+                "Machine Learning & AI" +
+                "I build practical AI systems focused on accessibility and developer productivity." +
+                " • PyTorch, TensorFlow, OpenCV, MediaPipe." +
+                " • Real-time computer vision systems." +
+                " • LLM integration into user-facing applications." +
+                " • ML pipeline design (preprocessing, training, evaluation, deployment)." +
+                "" +
+                "Problem Solving & Systems Thinking" +
+                " • Strong foundation in data structures and algorithms." +
+                "• Experience reasoning about scalability and performance tradeoffs." +
+                " • Structured debugging and root-cause analysis." +
+                " • Production mindset: reliability, maintainability, iteration." +
+                "" +
+                "Leadership & Ownership" +
+                " • Experience leading cross-functional teams" +
+                " • Comfortable operating in ambiguity" +
+                " • Strong communication across technical and non-technical audiences." +
+                " • Take ownership from idea to deployment."
 };
 
 const dataportfolio = [

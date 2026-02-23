@@ -76,6 +76,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
+            <h3 className="color_sec py-4">Skills</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
