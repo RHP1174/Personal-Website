@@ -94,44 +94,9 @@ const volunteertimeline = [
     }
 ];
 
-const skills = [
-    {
-        name: "Java",
-        value: 100,
-    },
-    {
-        name: "HTML/CSS",
-        value: 95,
-    },
-    {
-        name: "Javascript",
-        value: 90,
-    },
-    {
-        name: "Python",
-        value: 85,
-    },
-    {
-        name: "SQL",
-        value: 80,
-    },
-    {
-        name: "C/C++",
-        value: 70,
-    },
-    {
-        name: "TypeScript",
-        value: 60,
-    },
-    {
-        name: "React",
-        value: 80,
-    },
-    {
-        name: "Node.js",
-        value: 70,
-    },
-];
+const skills = {
+        skills: "test"
+};
 
 const dataportfolio = [
     {
