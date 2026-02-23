@@ -96,9 +96,9 @@ const volunteertimeline = [
 
 const skills = {
         skills: "Software Engineering" +
-                "I build full-stack applications with a focus on backend systems, developer tooling," +
-                "and AI-powered products. I design and implement end-to-end systems — from" + 
-                "architecture and database design to deployment and iteration." +
+                "\nI build full-stack applications with a focus on backend systems, developer tooling, " +
+                "and AI-powered products. I design and implement end-to-end systems — from " + 
+                "architecture and database design to deployment and iteration. \n" +
                 " • Languages: Java, Python, C++, JavaScript/TypeScript, SQL." +
                 " • Backend & Systems: REST APIs, object-oriented design, concurrency control," +
                 "   distributed systems fundamentals." +
