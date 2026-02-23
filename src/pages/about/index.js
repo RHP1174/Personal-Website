@@ -87,7 +87,7 @@ export const About = () => {
                     .map((s) => s.trim())
                     .filter(Boolean)
                   return (
-                    <tr key={i}>
+                    <div key={i}>
                       <th className="skill-title">{item.skill}</th>
                       <p className="skill-about">{item.about}</p>
                       {points.length > 0 && (
@@ -97,7 +97,7 @@ export const About = () => {
                           ))}
                         </ul>
                       )}
-                    </tr>
+                    </div>
                   );
                 })}
               </tbody>
