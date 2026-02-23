@@ -88,7 +88,7 @@ export const About = () => {
                     .filter(Boolean)
                   return (
                     <tr key={i}>
-                      <h5 className="skill-title">{item.skill}</h5>
+                      <th className="skill-title">{item.skill}</th>
                       <p className="skill-about">{item.about}</p>
                       {points.length > 0 && (
                         <ul className="skill-points">
