@@ -14,7 +14,7 @@ const meta = {
 const introdata = {
     title: "I'm Raj Patel,",
     animated: {
-        first: "I do Software Engineering",
+        first: "a Software Engineer",
         second: "I love coding",
         third: "I make cool projects",
     },
@@ -23,7 +23,7 @@ const introdata = {
                  "passionate software engineer with a strong interest in building efficient and " +
                  "scalable applications. I am currently looking for opportunities to work on " +
                  "real-world projects and expand my skills. I have experience in multiple " +
-                 "programming languages such as Java, C/C++, Python, and a few others. Feel free " +
+                 "programming languages such as Java, Python, etc. Feel free " +
                  "to check out my portfolio or contact me if you would like!",
     your_img_url: "img/personal-image",
 };
