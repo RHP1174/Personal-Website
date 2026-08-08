@@ -18,7 +18,7 @@ const introdata = {
         second: "I love coding",
         third: "I make cool projects",
     },
-    description: "Hello, I am recent graduate from the University of Washington with a Bachelor's" +
+    description: "Hello, I am recent graduate from the University of Washington with a Bachelor's " +
                  "Degree in Computer Science with a Minor in Business Administration. I am a " +
                  "passionate software engineer with a strong interest in building efficient and " +
                  "scalable applications. I am currently looking for opportunities to work on " +
