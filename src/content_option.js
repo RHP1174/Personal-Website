@@ -8,7 +8,7 @@ import hintcode from './images/hintcode.png';
 const logotext = "RHP";
 const meta = {
     title: "Raj Patel",
-    description: "I'm Raj Patel data scientist _ Full stack devloper, a student at Univerity of Washington",
+    description: "I'm Raj Patel data scientist _ Full stack devloper, a recent graduate from the University of Washington",
 };
 
 const introdata = {
@@ -18,8 +18,8 @@ const introdata = {
         second: "I love coding",
         third: "I make cool projects",
     },
-    description: "Hello, I am currently a student at the University of Washington pursuing a " +
-                 "Computer Science Degree with a Minor in Business Administration. I am a " +
+    description: "Hello, I am recent graduate from the University of Washington with a Bachelor's" +
+                 "Degree in Computer Science with a Minor in Business Administration. I am a " +
                  "passionate software engineer with a strong interest in building efficient and " +
                  "scalable applications. I am currently looking for opportunities to work on " +
                  "real-world projects and expand my skills. I have experience in multiple " +
