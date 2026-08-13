@@ -150,7 +150,7 @@ const dataportfolio = [
                      "accuracy and contextual relevance for algorithmic coding challenges. " +
                      "Developed CI/CD pipelines using GitHub Actions to automate testing, " +
                      "building, and deployment, ensuring a streamlined development workflow.",
-        link: "https://chromewebstore.google.com/detail/hintcode/hpehhabpjldkfbbjggeeajmcjkmlhfbe",
+        linkText: "Proprietary",
     },
     {
         title: "Draft Application",
