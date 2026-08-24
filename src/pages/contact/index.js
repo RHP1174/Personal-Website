@@ -19,10 +19,13 @@ export const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+    setFormdata((currentData) => ({ ...currentData, loading: true }));
 
     const templateParams = {
-      from_name: formData.email,
+      from_name: formData.name,
+      email: formData.email,
+      user_email: formData.email,
+      reply_to: formData.email,
       user_name: formData.name,
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
@@ -48,6 +51,8 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
+            ...formData,
+            loading: false,
             alertmessage: `Faild to send!,${error.text}`,
             variant: "danger",
             show: true,
