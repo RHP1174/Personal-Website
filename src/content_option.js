@@ -206,8 +206,8 @@ const dataportfolio = [
 
 const contactConfig = {
     description: "If you would like to contact me, feel free to do so below. Thank you!",
-    YOUR_SERVICE_ID: "service_6ckcpjv",
-    YOUR_TEMPLATE_ID: "template_zxtzg0w",
+    YOUR_SERVICE_ID: "service_vnoce3n",
+    YOUR_TEMPLATE_ID: "template_e2fvfzs",
     YOUR_PUBLIC_KEY: "oXfJvOJuTTH84frFy",
 };
 
